@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section {
+  width: 100%;
+  max-width: 700px;
+  margin: 50px auto;
+}
+.topContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.image > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.rightText > p {
+  padding-top: 10px;
+}
+.middleContainer > h1 {
+  border-bottom: 1px solid #5299B6;
+  padding: 0 0 10px 0;
+}
+.skillContainer {
+  margin-top: 20px;
+}
+.skillContainer > span {
+  color: white;
+  background-color: #5299B6;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.skillContainer span:not(:first-child){
+  margin-left: 10px;
+}
+.bottomContainer {
+  margin-top: 30px;
+}
+.bottomContainer > h1 {
+  border-bottom: 1px solid #5299B6;
+  padding: 0 0 10px 0;
+}
+.bottomText {
+  padding-top: 20px;
+}
